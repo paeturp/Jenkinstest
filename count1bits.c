@@ -82,10 +82,10 @@ int countbits_sub(int input)
 int main()
 {
   int bitcount = 0;
-  int num = 0;
+  int num = 34;
   bitcount = countbits_shift(num);
-  printf("countbits_shift returns number of \"1\" bits in %X is %d\n", num, bitcount);
+  printf("countbits_shift returns number of \"1\" bits in 0X%X is %d\n", num, bitcount);
   bitcount = countbits_sub(num);
-  printf("countbits_sub returns number of \"1\" bits in %X is %d\n", num, bitcount);
+  printf("countbits_sub returns number of \"1\" bits in 0x%X is %d\n", num, bitcount);
 
 }
